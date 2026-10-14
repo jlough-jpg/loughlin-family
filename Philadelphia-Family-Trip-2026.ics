@@ -1,0 +1,248 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Loughlin Family//Philadelphia Trip 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Philadelphia Family Trip — October 21–25 2026
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20071104T020000
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:jml-arrive-2026@loughlin-family.local
+DTSTAMP:20261014T190000Z
+DTSTART;TZID=America/New_York:20261021T170000
+SUMMARY:Approx. JMLs arrive at PHL
+LOCATION:Philadelphia International Airport (PHL)
+DESCRIPTION:Who: JMLs\nStatus: Approximate\nTime shown: Around 5:00pm\nAr
+ rival date and approximate time supplied by the family. Exact flight num
+ ber and arrival time still needed.\nAll times Philadelphia local (EDT). 
+ End time not specified.\nSource: https://docs.google.com/spreadsheets/d/
+ 1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=sharing
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wdl-arrive-2026@loughlin-family.local
+DTSTAMP:20261014T190000Z
+DTSTART;TZID=America/New_York:20261021T173900
+SUMMARY:WDLs arrive at PHL
+LOCATION:Philadelphia International Airport (PHL)
+DESCRIPTION:Who: WDLs\nStatus: Verify flight\nTime shown: 5:39pm in sheet
+ \nFamily describes arrival around 5pm\; sheet specifies Wednesday 5:39pm
+ . Working time uses the more specific sheet entry\, pending flight confi
+ rmation.\nAll times Philadelphia local (EDT). End time not specified.\nS
+ ource: https://docs.google.com/spreadsheets/d/1ADyuIkhkTVV6JzsnnPk_FFGFt
+ 22fv7nFh--4Y_b_b40/edit?usp=sharing
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mtl-arrive-2026@loughlin-family.local
+DTSTAMP:20261014T190000Z
+DTSTART;TZID=America/New_York:20261022T144500
+SUMMARY:MTLs arrive
+LOCATION:Location not specified
+DESCRIPTION:Who: MTLs\nStatus: From sheet\nTime shown: 2:45pm\nThe sheet 
+ lists Thursday 2:45pm ETA. Arrival location\, flight details\, and trans
+ fer plans are not specified.\nAll times Philadelphia local (EDT). End ti
+ me not specified.\nSource: https://docs.google.com/spreadsheets/d/1ADyuI
+ khkTVV6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=sharing
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:talulas-2026@loughlin-family.local
+DTSTAMP:20261014T190000Z
+DTSTART;TZID=America/New_York:20261022T173000
+SUMMARY:Dinner at Talula’s Garden
+LOCATION:Talula’s Garden\, Philadelphia
+DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs\nStatus: Working plan\n
+ Time shown: 5:30pm\nTime supplied in the sheet and approved as the worki
+ ng plan. Plan for five couples / ten people\; reservation confirmation a
+ nd headcount need checking. The sheet describes farm-to-table dining.\nA
+ ll times Philadelphia local (EDT). End time not specified.\nSource: http
+ s://docs.google.com/spreadsheets/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7nFh--4
+ Y_b_b40/edit?usp=sharing
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+URL:https://talulasgarden.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:newtown-depart-2026@loughlin-family.local
+DTSTAMP:20261014T190000Z
+DTSTART;TZID=America/New_York:20261023T103000
+SUMMARY:Depart for Newtown / Pennswood
+LOCATION:Departure point and transport to be confirmed
+DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs\nStatus: Working plan\n
+ Time shown: 10:30am\nThe sheet says Leave 10:30. Friday lunch is in Newt
+ own\, PA\, with Gigi. Confirm departure point\, vehicles\, and travel ti
+ me\; do not assume a 30-minute journey.\nAll times Philadelphia local (E
+ DT). End time not specified.\nSource: https://docs.google.com/spreadshee
+ ts/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=sharing
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:gigi-2026@loughlin-family.local
+DTSTAMP:20261014T190000Z
+DTSTART;TZID=America/New_York:20261023T110000
+SUMMARY:Lunch with Gigi at Pennswood
+LOCATION:Pennswood\, Newtown\, Pennsylvania — exact dining location to 
+ confirm
+DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs + Gigi\nStatus: Date se
+ t · timing to confirm\nTime shown: 11:00am–2/3pm in sheet\nFriday Oct
+ ober 23 lunch with Gigi is supplied by the family. The sheet indicates 1
+ 1am–2/3pm and says Book DiningRm\; it also asks whether Tom contacts t
+ hem. Confirm dining room\, actual lunch time\, departure time\, and whet
+ her the count is ten visitors plus Gigi. End time remains unresolved\; c
+ alendar entry has no invented end time.\nAll times Philadelphia local (E
+ DT). End time not specified.\nSource: https://docs.google.com/spreadshee
+ ts/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=sharing
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:estia-2026@loughlin-family.local
+DTSTAMP:20261014T190000Z
+DTSTART;TZID=America/New_York:20261023T190000
+SUMMARY:Dinner at Estia
+LOCATION:Estia\, Philadelphia
+DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs\nStatus: Working plan\n
+ Time shown: 7:00pm\nTime in the sheet\, approved as the working plan. Co
+ nfirm reservation for ten people. The sheet describes Greek seafood dini
+ ng.\nAll times Philadelphia local (EDT). End time not specified.\nSource
+ : https://docs.google.com/spreadsheets/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7
+ nFh--4Y_b_b40/edit?usp=sharing
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+URL:https://www.estiarestaurant.com/philadelphia-pa/philadelphia-pa.asp
+END:VEVENT
+BEGIN:VEVENT
+UID:brothers-2026@loughlin-family.local
+DTSTAMP:20261014T190000Z
+DTSTART;VALUE=DATE:20261024
+SUMMARY:LFF meeting — morning\; time to confirm
+LOCATION:Location to be confirmed
+DESCRIPTION:Saturday morning LFF meeting. Exact time and location to confirm.
+ Previous sheet listed an 8am brothers meeting; treated as the same event
+ pending confirmation. Date-only marker does not mean an all-day meeting.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:barnes-2026@loughlin-family.local
+DTSTAMP:20261014T190000Z
+DTSTART;TZID=America/New_York:20261024T110000
+SUMMARY:Barnes Foundation + Calder Gardens
+LOCATION:Barnes Foundation / Calder Gardens\, Philadelphia
+DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs\nStatus: Marked booked 
+ in sheet\nTime shown: 11:00am\nThe sheet lists 11am Barnes Foundation + 
+ Calder Garden\, $38 per person\, and a booked notation. Confirm that tic
+ kets cover both attractions\, all ten travelers\, and the intended admis
+ sion times. No visit end time has been invented.\nAll times Philadelphia
+  local (EDT). End time not specified.\nSource: https://docs.google.com/s
+ preadsheets/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=shar
+ ing
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+URL:https://www.barnesfoundation.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:barnes-lunch-2026@loughlin-family.local
+DTSTAMP:20261014T190000Z
+DTSTART;TZID=America/New_York:20261024T120000
+SUMMARY:Lunch at the Barnes Garden Restaurant
+LOCATION:Garden Restaurant at the Barnes Foundation
+DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs · five seats noted\; t
+ en intended\nStatus: Action needed · five seats\nTime shown: Noon\nThe 
+ sheet says 12p Cafe RESY 5 peeps now (must request for 10 (?)). Request 
+ a reservation for ten or agree on a split plan. The Resy URL is a bookin
+ g/search link\, not proof of a reservation. Noon follows the 11am museum
+  start by one hour\; confirm how the two attraction visits fit around lu
+ nch.\nAll times Philadelphia local (EDT). End time not specified.\nSourc
+ e: https://docs.google.com/spreadsheets/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv
+ 7nFh--4Y_b_b40/edit?usp=sharing
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+URL:https://resy.com/cities/philadelphia-pa/venues/garden-restaurant-at-t
+ he-barnes-foundation?seats=5&date=2026-10-24
+END:VEVENT
+BEGIN:VEVENT
+UID:love-2026@loughlin-family.local
+DTSTAMP:20261014T190000Z
+DTSTART;TZID=America/New_York:20261024T171500
+SUMMARY:Dinner at The Love
+LOCATION:The Love\, Philadelphia
+DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs\nStatus: Working plan\n
+ Time shown: 5:15pm\nTime in the sheet\, approved as the working plan. Co
+ nfirm reservation for ten people. The sheet describes upscale American d
+ ining.\nAll times Philadelphia local (EDT). End time not specified.\nSou
+ rce: https://docs.google.com/spreadsheets/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22
+ fv7nFh--4Y_b_b40/edit?usp=sharing
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+URL:https://theloverestaurant.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:jml-depart-2026@loughlin-family.local
+DTSTAMP:20261014T190000Z
+DTSTART;TZID=America/New_York:20261025T070000
+SUMMARY:Approx. JMLs depart PHL
+LOCATION:Philadelphia International Airport (PHL)
+DESCRIPTION:Who: JMLs\nStatus: Approximate\nTime shown: Around 7:00am\nDe
+ parture date and approximate time supplied by the family. This is the fl
+ ight departure\, not hotel departure. Exact flight\, hotel pickup\, and 
+ airport arrival timing still need confirmation.\nAll times Philadelphia 
+ local (EDT). End time not specified.\nSource: https://docs.google.com/sp
+ readsheets/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=shari
+ ng
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:wdl-depart-2026@loughlin-family.local
+DTSTAMP:20261014T190000Z
+DTSTART;TZID=America/New_York:20261025T072000
+SUMMARY:WDLs depart PHL
+LOCATION:Philadelphia International Airport (PHL)
+DESCRIPTION:Who: WDLs\nStatus: Verify flight\nTime shown: 7:20am in sheet
+ \nFamily describes departure around 7am\; sheet specifies Sunday 7:20am.
+  Working time uses the more specific sheet entry\, pending flight confir
+ mation. This is the flight departure\, not hotel departure. Hotel pickup
+  is not yet scheduled.\nAll times Philadelphia local (EDT). End time not
+  specified.\nSource: https://docs.google.com/spreadsheets/d/1ADyuIkhkTVV
+ 6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=sharing
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:mtl-depart-2026@loughlin-family.local
+DTSTAMP:20261014T190000Z
+DTSTART;TZID=America/New_York:20261025T090000
+SUMMARY:MTLs depart
+LOCATION:Departure location not specified
+DESCRIPTION:Who: MTLs\nStatus: Approximate window\nTime shown: Around 9:0
+ 0–10:00am\nSheet lists Sunday 9–10 for MTLs. The 9am calendar marker
+  represents the start of an approximate departure window\, not an exact 
+ flight time. Confirm travel details.\nAll times Philadelphia local (EDT)
+ . End time not specified.\nSource: https://docs.google.com/spreadsheets/
+ d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=sharing
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
