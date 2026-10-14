@@ -46,4 +46,9 @@
   dialog.addEventListener('click', e => { if (e.target === dialog) { const r=dialog.getBoundingClientRect(); if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom) closeDialog(); } });
   dialog.addEventListener('close', () => opener?.focus());
   document.querySelector('#print-button').addEventListener('click', () => window.print());
+  function openLinkedPerson() {
+    if (location.hash.startsWith('#person-')) showPerson(location.hash.slice(8));
+  }
+  window.addEventListener('hashchange',openLinkedPerson);
+  openLinkedPerson();
 })();
