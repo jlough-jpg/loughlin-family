@@ -193,8 +193,14 @@ window.familyData = {
       ],
       "memorial": "96990644/william_d-loughlin",
       "chart": true,
-      "note": "Listed as William D. Loughlin on his memorial and identified as William Dornan in his father’s biography. The memorial links his parents and siblings. Wife Agnes Quinn and children Helen and Robert W. come from the family chart and still need supporting records. The family identifies him as their grandfather. He was nine when Dennis died in December 1902.",
-      "generation": 4
+      "note": "Son of Dr. Dennis Joseph Loughlin and Katherine Dornan; the family identifies him as their grandfather. The family-supplied IAS memorial describes him as a radio engineer and founder of Boonton Radio Corporation. It reports a 1911 wireless station project at St. Joseph’s College; radio-compass and later laboratory leadership work at the Philadelphia Navy Yard; joining Radio Frequency Laboratories in 1923 and becoming president in 1931; and presentation of Boonton’s Q-Meter in 1934. It describes work with Edwin H. Armstrong and World War II collaborations with Bell Labs and MIT’s Radiation Laboratory on radar-related instruments. The article explicitly identifies Robert W. as his son and describes Bob and Ginny’s support for IAS. Wife Agnes Quinn and daughter Helen remain supported here by the family chart; the memorial supplies no marriage details. Technical Navy laboratory work does not by itself establish military enlistment.",
+      "generation": 4,
+      "additionalSources": [
+        {
+          "title": "In Memory of William D. Loughlin — IAS memorial, printed page 3 (family-supplied scan)",
+          "url": "William-D-Loughlin-IAS-memorial.pdf"
+        }
+      ]
     },
     {
       "id": "agnes",
@@ -246,8 +252,14 @@ window.familyData = {
         "james"
       ],
       "chart": true,
-      "note": "The family chart identifies Robert W. as William and Agnes’s son, married to Virginia Naab. It lists five children. Individual dates and records are still needed.",
-      "generation": 5
+      "note": "The family chart identifies Robert W. as William and Agnes’s son, married to Virginia Naab. It lists five children. Individual dates and records are still needed. The IAS memorial independently of the chart explicitly identifies Robert W. as William D.’s son and describes Bob and Ginny’s philanthropic support and their five sons. The article does not list those sons’ names; Ginny is identified with Virginia Naab through the family chart.",
+      "generation": 5,
+      "additionalSources": [
+        {
+          "title": "In Memory of William D. Loughlin — IAS memorial, printed page 3 (family-supplied scan)",
+          "url": "William-D-Loughlin-IAS-memorial.pdf"
+        }
+      ]
     },
     {
       "id": "william-next",
