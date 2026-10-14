@@ -14,8 +14,8 @@
   const filter = document.querySelector('#family-filter');
   function renderDirectory() {
     const term = search.value.trim().toLocaleLowerCase();
-    const matching = people.filter(p => (filter.value === 'all' || p.group === filter.value) && [p.name,p.role,p.birth,p.death,p.partnerName].filter(Boolean).join(' ').toLocaleLowerCase().includes(term));
-    document.querySelector('#family-directory').innerHTML = matching.length ? matching.map(personButton).join('') : '<p class="empty-state">No matching records. Try another name or choose a different group.</p>';
+    const matching = people.filter(p => (filter.value === 'all' || String(p.generation) === filter.value) && [p.name,p.role,p.birth,p.death,p.partnerName,p.note].filter(Boolean).join(' ').toLocaleLowerCase().includes(term));
+    document.querySelector('#family-directory').innerHTML = matching.length ? [1,2,3,4,5,6].map(g => { const members = matching.filter(p => p.generation === g); return members.length ? `<section class="generation-group" aria-labelledby="generation-${g}"><h3 id="generation-${g}">Generation ${g}<small>${['Thomas and Bridget and the early roots','John Kane Sr William and their families','Dennis Joseph siblings and cousins','William Dornan siblings and cousins','Children of William Dornan and his siblings','The later Loughlin family'][g-1]}</small></h3><div class="generation-cards">${members.map(personButton).join('')}</div></section>` : ''; }).join('') : '<p class="empty-state">No matching records. Try another name or choose a different group.</p>';
     document.querySelector('#results-count').textContent = `${matching.length} ${matching.length === 1 ? 'person' : 'people'} shown`;
   }
   search.addEventListener('input', renderDirectory);
@@ -32,12 +32,13 @@
     if (!p) return;
     if (!dialog.open) opener = button;
     const facts = [['Born',p.birth],['Died',p.death],['Buried',p.burial],['Spouse named in source',p.partnerName]].filter(([,v]) => v);
-    document.querySelector('#person-detail').innerHTML = `<p class="eyebrow">${esc(p.role)}</p><h2 id="person-title">${esc(p.name)}</h2><p class="dialog-years">${esc(p.years)}</p>${badges(p)}<dl class="record-facts">${facts.map(([k,v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl><p>${esc(p.note)}</p>${relatives('Parents shown in this branch',p.parents)}${relatives('Spouse',p.spouse ? [p.spouse] : [])}${relatives('Children shown in this branch',p.children)}<div class="record-source"><h3>Source</h3>${p.memorial ? `<a href="${esc(memorialUrl(p))}" target="_blank" rel="noopener noreferrer">Read the Find a Grave memorial ↗</a><p class="small-note">Information reported by the memorial; original records have not been independently verified.</p>` : ''}${p.chart ? '<p>Handwritten Loughlin family tree, supplied by the family. Later relationships need supporting records.</p>' : ''}</div>`;
+    document.querySelector('#person-detail').innerHTML = `<p class="eyebrow">Generation ${p.generation} · ${esc(p.role)}</p><h2 id="person-title">${esc(p.name)}</h2><p class="dialog-years">${esc(p.years)}</p>${badges(p)}<dl class="record-facts">${facts.map(([k,v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl><p>${esc(p.note)}</p>${relatives('Parents shown in this branch',p.parents)}${relatives('Spouse',p.spouse ? [p.spouse] : [])}${relatives('Children shown in this branch',p.children)}<div class="record-source"><h3>Sources</h3>${(p.additionalSources || []).map(s => `<p><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a></p>`).join('')}${p.memorial ? `<a href="${esc(memorialUrl(p))}" target="_blank" rel="noopener noreferrer">Read the Find a Grave memorial ↗</a><p class="small-note">Information reported by the memorial; original records have not been independently verified.</p>` : ''}${p.chart ? '<p>Handwritten Loughlin family tree, supplied by the family. Later relationships need supporting records.</p>' : ''}</div>`;
     if (!dialog.open) dialog.showModal();
     dialog.scrollTop = 0;
     dialog.querySelector('.close-dialog').focus();
   }
   document.addEventListener('click', e => {
+    const jump = e.target.closest('[data-generation]'); if (jump) { filter.value = jump.dataset.generation; search.value = ''; renderDirectory(); }
     const button = e.target.closest('[data-person]');
     if (button) showPerson(button.dataset.person,button);
   });
