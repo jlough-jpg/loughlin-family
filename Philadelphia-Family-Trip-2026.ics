@@ -24,159 +24,155 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:jml-arrive-2026@loughlin-family.local
-DTSTAMP:20261014T190000Z
-DTSTART;TZID=America/New_York:20261021T170000
-SUMMARY:Approx. JMLs arrive at PHL
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
+DTSTART;TZID=America/New_York:20261021T173800
+SUMMARY:Jim & Carol (JMLs) arrive at PHL
 LOCATION:Philadelphia International Airport (PHL)
-DESCRIPTION:Who: JMLs\nStatus: Approximate\nTime shown: Around 5:00pm\nAr
- rival date and approximate time supplied by the family. Exact flight num
- ber and arrival time still needed.\nAll times Philadelphia local (EDT). 
- End time not specified.\nSource: https://docs.google.com/spreadsheets/d/
- 1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=sharing
+DESCRIPTION:Who: JMLs\nStatus: Family update\nTime: 5:38pm\nFlight arriva
+ l time supplied October 20. Flight number and ground transfer not suppli
+ ed.\nAll times Philadelphia local (EDT). Family update October 20\, 2026
+ .
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wdl-arrive-2026@loughlin-family.local
-DTSTAMP:20261014T190000Z
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
 DTSTART;TZID=America/New_York:20261021T173900
-SUMMARY:WDLs arrive at PHL
+SUMMARY:Bill & Julia (WDLs) arrive at PHL
 LOCATION:Philadelphia International Airport (PHL)
-DESCRIPTION:Who: WDLs\nStatus: Verify flight\nTime shown: 5:39pm in sheet
- \nFamily describes arrival around 5pm\; sheet specifies Wednesday 5:39pm
- . Working time uses the more specific sheet entry\, pending flight confi
- rmation.\nAll times Philadelphia local (EDT). End time not specified.\nS
- ource: https://docs.google.com/spreadsheets/d/1ADyuIkhkTVV6JzsnnPk_FFGFt
- 22fv7nFh--4Y_b_b40/edit?usp=sharing
+DESCRIPTION:Who: WDLs\nStatus: Family update\nTime: 5:39pm\nFlight arriva
+ l 5:39pm supplied October 20. Bill and Julia’s hotel reservation is co
+ nfirmed\; stay dates and reservation details were not supplied.\nAll tim
+ es Philadelphia local (EDT). Family update October 20\, 2026.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:mtl-arrive-2026@loughlin-family.local
-DTSTAMP:20261014T190000Z
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
 DTSTART;TZID=America/New_York:20261022T144500
-SUMMARY:MTLs arrive
-LOCATION:Location not specified
-DESCRIPTION:Who: MTLs\nStatus: From sheet\nTime shown: 2:45pm\nThe sheet 
- lists Thursday 2:45pm ETA. Arrival location\, flight details\, and trans
- fer plans are not specified.\nAll times Philadelphia local (EDT). End ti
- me not specified.\nSource: https://docs.google.com/spreadsheets/d/1ADyuI
- khkTVV6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=sharing
+SUMMARY:Mark & Carolyn (MTLs) arrive by Amtrak
+LOCATION:Philadelphia — Amtrak station not specified
+DESCRIPTION:Who: MTLs\nStatus: Family update\nTime: 2:45pm\nThursday Amtr
+ ak arrival at 2:45pm supplied October 20. Train number and station not s
+ upplied.\nAll times Philadelphia local (EDT). Family update October 20\,
+  2026.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:talulas-2026@loughlin-family.local
-DTSTAMP:20261014T190000Z
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
 DTSTART;TZID=America/New_York:20261022T173000
 SUMMARY:Dinner at Talula’s Garden
 LOCATION:Talula’s Garden\, Philadelphia
-DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs\nStatus: Working plan\n
- Time shown: 5:30pm\nTime supplied in the sheet and approved as the worki
- ng plan. Plan for five couples / ten people\; reservation confirmation a
- nd headcount need checking. The sheet describes farm-to-table dining.\nA
- ll times Philadelphia local (EDT). End time not specified.\nSource: http
- s://docs.google.com/spreadsheets/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7nFh--4
- Y_b_b40/edit?usp=sharing
-STATUS:TENTATIVE
+DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs\nStatus: Reservation co
+ nfirmed for 10\nTime: 5:30pm\nDinner reservation confirmed for ten peopl
+ e by the family on October 20\, 2026. Time follows the supplied schedule
+ .\nAll times Philadelphia local (EDT). Family update October 20\, 2026.
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://talulasgarden.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:newtown-depart-2026@loughlin-family.local
-DTSTAMP:20261014T190000Z
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
 DTSTART;TZID=America/New_York:20261023T103000
 SUMMARY:Depart for Newtown / Pennswood
 LOCATION:Departure point and transport to be confirmed
-DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs\nStatus: Working plan\n
- Time shown: 10:30am\nThe sheet says Leave 10:30. Friday lunch is in Newt
- own\, PA\, with Gigi. Confirm departure point\, vehicles\, and travel ti
- me\; do not assume a 30-minute journey.\nAll times Philadelphia local (E
- DT). End time not specified.\nSource: https://docs.google.com/spreadshee
- ts/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=sharing
+DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs\nStatus: Transport arra
+ nged by John (JPLs)\nTime: 10:30am\nLeave at 10:30am Friday for Pennswoo
+ d. All group transport arranged by John. Brunch in the Board Room is con
+ firmed for 11am–1pm.\nAll times Philadelphia local (EDT). Family updat
+ e October 20\, 2026.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:gigi-2026@loughlin-family.local
-DTSTAMP:20261014T190000Z
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
 DTSTART;TZID=America/New_York:20261023T110000
-SUMMARY:Lunch with Gigi at Pennswood
-LOCATION:Pennswood\, Newtown\, Pennsylvania — exact dining location to 
- confirm
-DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs + Gigi\nStatus: Date se
- t · timing to confirm\nTime shown: 11:00am–2/3pm in sheet\nFriday Oct
- ober 23 lunch with Gigi is supplied by the family. The sheet indicates 1
- 1am–2/3pm and says Book DiningRm\; it also asks whether Tom contacts t
- hem. Confirm dining room\, actual lunch time\, departure time\, and whet
- her the count is ten visitors plus Gigi. End time remains unresolved\; c
- alendar entry has no invented end time.\nAll times Philadelphia local (E
- DT). End time not specified.\nSource: https://docs.google.com/spreadshee
- ts/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=sharing
-STATUS:TENTATIVE
+DTEND;TZID=America/New_York:20261023T130000
+SUMMARY:Brunch with Gigi at Pennswood
+LOCATION:Pennswood Board Room\, Newtown\, Pennsylvania
+DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs + Gigi\nStatus: Confirm
+ ed · arranged by Tom (TGLs)\nTime: 11:00am–1:00pm\nBrunch with Gigi c
+ onfirmed in the Pennswood Board Room\, 11am–1pm Friday. Tom arranged b
+ runch\; John arranged all transport to Pennswood. Leave at 10:30am. Skip
+  breakfast for brunch.\nAll times Philadelphia local (EDT). Family updat
+ e October 20\, 2026.
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:estia-2026@loughlin-family.local
-DTSTAMP:20261014T190000Z
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
 DTSTART;TZID=America/New_York:20261023T190000
 SUMMARY:Dinner at Estia
 LOCATION:Estia\, Philadelphia
-DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs\nStatus: Working plan\n
- Time shown: 7:00pm\nTime in the sheet\, approved as the working plan. Co
- nfirm reservation for ten people. The sheet describes Greek seafood dini
- ng.\nAll times Philadelphia local (EDT). End time not specified.\nSource
- : https://docs.google.com/spreadsheets/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7
- nFh--4Y_b_b40/edit?usp=sharing
-STATUS:TENTATIVE
+DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs\nStatus: Reservation co
+ nfirmed for 10\nTime: 7:00pm\nDinner reservation confirmed for ten peopl
+ e by the family on October 20\, 2026. Time follows the supplied schedule
+ .\nAll times Philadelphia local (EDT). Family update October 20\, 2026.
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.estiarestaurant.com/philadelphia-pa/philadelphia-pa.asp
 END:VEVENT
 BEGIN:VEVENT
 UID:brothers-2026@loughlin-family.local
-DTSTAMP:20261014T190000Z
-DTSTART;VALUE=DATE:20261024
-SUMMARY:LFF meeting — morning\; time to confirm
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
+DTSTART;TZID=America/New_York:20261024T080000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:LFF meeting
 LOCATION:Location to be confirmed
-DESCRIPTION:Saturday morning LFF meeting. Exact time and location to confirm.
- Previous sheet listed an 8am brothers meeting; treated as the same event
- pending confirmation. Date-only marker does not mean an all-day meeting.
+DESCRIPTION:Who: LFF meeting group\nStatus: Arranged by Tom (TGLs)\nTime:
+  8:00am–noon · breakfast included\nLFF meeting with breakfast\, 8am
+ –noon Saturday\, arranged by Tom. This is the meeting group’s plan\;
+  the other group may join the 11am Barnes/Calder outing.\nAll times Phil
+ adelphia local (EDT). Family update October 20\, 2026.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:barnes-2026@loughlin-family.local
-DTSTAMP:20261014T190000Z
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
 DTSTART;TZID=America/New_York:20261024T110000
 SUMMARY:Barnes Foundation + Calder Gardens
 LOCATION:Barnes Foundation / Calder Gardens\, Philadelphia
-DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs\nStatus: Marked booked 
- in sheet\nTime shown: 11:00am\nThe sheet lists 11am Barnes Foundation + 
- Calder Garden\, $38 per person\, and a booked notation. Confirm that tic
- kets cover both attractions\, all ten travelers\, and the intended admis
- sion times. No visit end time has been invented.\nAll times Philadelphia
-  local (EDT). End time not specified.\nSource: https://docs.google.com/s
- preadsheets/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=shar
- ing
+DESCRIPTION:Who: Optional outing group — separate from LFF meeting part
+ icipants\nStatus: Marked booked in sheet\nTime: 11:00am\n11am Barnes Fou
+ ndation + Calder Gardens\, $38 per person\, marked booked in the sheet. 
+ The group not attending the LFF meeting may join this outing. This is a 
+ parallel plan\, not a conflict with the meeting.\nAll times Philadelphia
+  local (EDT). Family update October 20\, 2026.
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://www.barnesfoundation.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:barnes-lunch-2026@loughlin-family.local
-DTSTAMP:20261014T190000Z
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
 DTSTART;TZID=America/New_York:20261024T120000
 SUMMARY:Lunch at the Barnes Garden Restaurant
 LOCATION:Garden Restaurant at the Barnes Foundation
 DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs · five seats noted\; t
- en intended\nStatus: Action needed · five seats\nTime shown: Noon\nThe 
- sheet says 12p Cafe RESY 5 peeps now (must request for 10 (?)). Request 
- a reservation for ten or agree on a split plan. The Resy URL is a bookin
- g/search link\, not proof of a reservation. Noon follows the 11am museum
-  start by one hour\; confirm how the two attraction visits fit around lu
- nch.\nAll times Philadelphia local (EDT). End time not specified.\nSourc
- e: https://docs.google.com/spreadsheets/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv
- 7nFh--4Y_b_b40/edit?usp=sharing
+ en intended\nStatus: Action needed · five seats\nTime: Noon\nThe sheet 
+ says 12p Cafe RESY 5 peeps now (must request for 10 (?)). Request a rese
+ rvation for ten or agree on a split plan. The Resy URL is a booking/sear
+ ch link\, not proof of a reservation. Noon follows the 11am museum start
+  by one hour\; confirm how the two attraction visits fit around lunch.\n
+ All times Philadelphia local (EDT). Family update October 20\, 2026.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 URL:https://resy.com/cities/philadelphia-pa/venues/garden-restaurant-at-t
@@ -184,64 +180,141 @@ URL:https://resy.com/cities/philadelphia-pa/venues/garden-restaurant-at-t
 END:VEVENT
 BEGIN:VEVENT
 UID:love-2026@loughlin-family.local
-DTSTAMP:20261014T190000Z
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
 DTSTART;TZID=America/New_York:20261024T171500
 SUMMARY:Dinner at The Love
 LOCATION:The Love\, Philadelphia
-DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs\nStatus: Working plan\n
- Time shown: 5:15pm\nTime in the sheet\, approved as the working plan. Co
- nfirm reservation for ten people. The sheet describes upscale American d
- ining.\nAll times Philadelphia local (EDT). End time not specified.\nSou
- rce: https://docs.google.com/spreadsheets/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22
- fv7nFh--4Y_b_b40/edit?usp=sharing
-STATUS:TENTATIVE
+DESCRIPTION:Who: WDLs\, MTLs\, JPLs\, TGLs\, JMLs\nStatus: Reservation co
+ nfirmed for 10\nTime: 5:15pm\nDinner reservation confirmed for ten peopl
+ e by the family on October 20\, 2026. Time follows the supplied schedule
+ .\nAll times Philadelphia local (EDT). Family update October 20\, 2026.
+STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 URL:https://theloverestaurant.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:jml-depart-2026@loughlin-family.local
-DTSTAMP:20261014T190000Z
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
 DTSTART;TZID=America/New_York:20261025T070000
-SUMMARY:Approx. JMLs depart PHL
+SUMMARY:Jim (JMLs) departs PHL
 LOCATION:Philadelphia International Airport (PHL)
-DESCRIPTION:Who: JMLs\nStatus: Approximate\nTime shown: Around 7:00am\nDe
- parture date and approximate time supplied by the family. This is the fl
- ight departure\, not hotel departure. Exact flight\, hotel pickup\, and 
- airport arrival timing still need confirmation.\nAll times Philadelphia 
- local (EDT). End time not specified.\nSource: https://docs.google.com/sp
- readsheets/d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=shari
- ng
+DESCRIPTION:Who: Jim\nStatus: Approximate\nTime: Around 7:00am\nJim depar
+ ts by flight around 7am Sunday\; Carol travels separately by Amtrak. Fli
+ ght number and hotel pickup time not supplied.\nAll times Philadelphia l
+ ocal (EDT). Family update October 20\, 2026.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:wdl-depart-2026@loughlin-family.local
-DTSTAMP:20261014T190000Z
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
 DTSTART;TZID=America/New_York:20261025T072000
-SUMMARY:WDLs depart PHL
+SUMMARY:Bill & Julia (WDLs) depart PHL
 LOCATION:Philadelphia International Airport (PHL)
-DESCRIPTION:Who: WDLs\nStatus: Verify flight\nTime shown: 7:20am in sheet
- \nFamily describes departure around 7am\; sheet specifies Sunday 7:20am.
-  Working time uses the more specific sheet entry\, pending flight confir
- mation. This is the flight departure\, not hotel departure. Hotel pickup
-  is not yet scheduled.\nAll times Philadelphia local (EDT). End time not
-  specified.\nSource: https://docs.google.com/spreadsheets/d/1ADyuIkhkTVV
- 6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=sharing
+DESCRIPTION:Who: WDLs\nStatus: Verify flight\nTime: 7:20am\nFlight depart
+ ure time supplied October 20. Hotel pickup time and flight number not su
+ pplied.\nAll times Philadelphia local (EDT). Family update October 20\, 
+ 2026.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:mtl-depart-2026@loughlin-family.local
-DTSTAMP:20261014T190000Z
-DTSTART;TZID=America/New_York:20261025T090000
-SUMMARY:MTLs depart
-LOCATION:Departure location not specified
-DESCRIPTION:Who: MTLs\nStatus: Approximate window\nTime shown: Around 9:0
- 0–10:00am\nSheet lists Sunday 9–10 for MTLs. The 9am calendar marker
-  represents the start of an approximate departure window\, not an exact 
- flight time. Confirm travel details.\nAll times Philadelphia local (EDT)
- . End time not specified.\nSource: https://docs.google.com/spreadsheets/
- d/1ADyuIkhkTVV6JzsnnPk_FFGFt22fv7nFh--4Y_b_b40/edit?usp=sharing
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
+DTSTART;TZID=America/New_York:20261025T051200
+SUMMARY:Mark & Carolyn (MTLs) depart by Amtrak
+LOCATION:Philadelphia — Amtrak station not specified
+DESCRIPTION:Who: MTLs\nStatus: Family update\nTime: 5:12am\nSunday Amtrak
+  departure at 5:12am supplied October 20\; replaces the earlier 9–10am
+  window. Train number and station not supplied. Allow time for transfer 
+ from hotel.\nAll times Philadelphia local (EDT). Family update October 2
+ 0\, 2026.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:carol-depart-2026@loughlin-family.local
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
+DTSTART;TZID=America/New_York:20261025T080000
+SUMMARY:Carol (JMLs) departs by Amtrak for Washington DC
+LOCATION:Philadelphia to Washington\, DC — stations not specified
+DESCRIPTION:Who: Carol\nStatus: Family update · approximate\nTime: Aroun
+ d 8:00am\nCarol travels separately from Jim. Sunday train around 8am sup
+ plied October 20. Train number\, station and hotel transfer not supplied
+ .\nAll times Philadelphia local (EDT). Family update October 20\, 2026.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hotel-mtls-2026@loughlin-family.local
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
+DTSTART;TZID=America/New_York:20261022T150000
+SUMMARY:Hotel check-in available — Mark & Carolyn (MTLs)
+LOCATION:Kimpton Hotel Palomar Philadelphia\, 117 South 17th Street\, Phi
+ ladelphia\, PA 19103
+DESCRIPTION:Who: Mark & Carolyn (MTLs)\nStatus: Reservation details suppl
+ ied by family\nTime: Check-in available from 3:00pm\nHotel stay: Thu\, O
+ ct 22 – Sun\, Oct 25. Check-in starts at 3pm\; this marker is availabi
+ lity\, not the couple's actual arrival time. Checkout date October 25\; 
+ checkout time not supplied. Hotel phone +1 215-563-5006.\nAll times Phil
+ adelphia local (EDT). Family update October 20\, 2026.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hotel-jpls-2026@loughlin-family.local
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
+DTSTART;TZID=America/New_York:20261022T150000
+SUMMARY:Hotel check-in available — John & Anne (JPLs)
+LOCATION:Kimpton Hotel Palomar Philadelphia\, 117 South 17th Street\, Phi
+ ladelphia\, PA 19103
+DESCRIPTION:Who: John & Anne (JPLs)\nStatus: Reservation details supplied
+  by family\nTime: Check-in available from 3:00pm\nHotel stay: Thu\, Oct 
+ 22 – Sun\, Oct 25. Check-in starts at 3pm\; this marker is availabilit
+ y\, not the couple's actual arrival time. Checkout date October 25\; che
+ ckout time not supplied. Hotel phone +1 215-563-5006.\nAll times Philade
+ lphia local (EDT). Family update October 20\, 2026.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hotel-tgls-2026@loughlin-family.local
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
+DTSTART;TZID=America/New_York:20261022T150000
+SUMMARY:Hotel check-in available — Tom & Brooke (TGLs)
+LOCATION:Kimpton Hotel Palomar Philadelphia\, 117 South 17th Street\, Phi
+ ladelphia\, PA 19103
+DESCRIPTION:Who: Tom & Brooke (TGLs)\nStatus: Reservation details supplie
+ d by family\nTime: Check-in available from 3:00pm\nHotel stay: Thu\, Oct
+  22 – Sun\, Oct 25. Check-in starts at 3pm\; this marker is availabili
+ ty\, not the couple's actual arrival time. Checkout date October 25\; ch
+ eckout time not supplied. Hotel phone +1 215-563-5006.\nAll times Philad
+ elphia local (EDT). Family update October 20\, 2026.
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hotel-jmls-2026@loughlin-family.local
+DTSTAMP:20261020T200000Z
+SEQUENCE:2
+DTSTART;TZID=America/New_York:20261021T150000
+SUMMARY:Hotel check-in available — Jim & Carol (JMLs)
+LOCATION:Kimpton Hotel Palomar Philadelphia\, 117 South 17th Street\, Phi
+ ladelphia\, PA 19103
+DESCRIPTION:Who: Jim & Carol (JMLs)\nStatus: Reservation details supplied
+  by family\nTime: Check-in available from 3:00pm\nHotel stay: Wed\, Oct 
+ 21 – Sun\, Oct 25. Check-in starts at 3pm\; this marker is availabilit
+ y\, not the couple's actual arrival time. Checkout date October 25\; che
+ ckout time not supplied. Hotel phone +1 215-563-5006.\nAll times Philade
+ lphia local (EDT). Family update October 20\, 2026.
 STATUS:TENTATIVE
 TRANSP:TRANSPARENT
 END:VEVENT
