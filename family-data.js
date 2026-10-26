@@ -1,4 +1,3 @@
-/* Family research with stable IDs and source distinctions. */
 window.familyData = {
   "updated": "2026-10-14",
   "sources": {
@@ -171,7 +170,11 @@ window.familyData = {
       ],
       "memorial": "97094376/katherine-loughlin",
       "note": "Her biography names her parents as William J. and Mary Dornan and a brother, William J. Dornan Jr. It names four children with Dr. Dennis Joseph Loughlin. A connection to Wm. J. Dornan, Printer is under research; neither her father nor brother has yet been securely identified with the business.",
-      "generation": 3
+      "generation": 3,
+      "parents": [
+        "dornan-father",
+        "dornan-mother"
+      ]
     },
     {
       "id": "william-d",
@@ -544,7 +547,8 @@ window.familyData = {
       ],
       "memorial": "14601461/dennis-sweeny",
       "note": "Ellen’s father. His memorial names three children: Ellen, Thomas B., and Dennis H. It describes work with brother Hugh as a grocer on Shippen Street and involvement in Philadelphia public life.",
-      "generation": 1
+      "generation": 1,
+      "connected": true
     },
     {
       "id": "margaret",
@@ -561,7 +565,8 @@ window.familyData = {
       ],
       "memorial": "14601462/margaret-sweeny",
       "note": "Ellen’s mother. Her own memorial uses Margaret Sweeny; Ellen’s biography supplies Donaghy as her maiden name. The memorial mentions an earlier burial at St. Mary’s.",
-      "generation": 1
+      "generation": 1,
+      "connected": true
     },
     {
       "group": "extended",
@@ -597,7 +602,7 @@ window.familyData = {
       "role": "William Loughlin’s wife",
       "note": "Called Eliza and Elizabeth in family memorials. Her parents are named as James and Anna Reese Enue; Enue and Eneu spellings occur. Ten children are named in the couple’s biographies.",
       "id": "eliza",
-      "name": "Eliza Elizabeth Enue Loughlin",
+      "name": "Eliza “Elizabeth” Enue Loughlin",
       "years": "1825–1895",
       "generation": 2,
       "spouse": "william-elder",
@@ -714,7 +719,7 @@ window.familyData = {
       "note": "Named in his father’s biography, which gives 1849; Penn’s archival catalog gives 1848 and Jefferson Medical College class of 1868. Birth year remains unresolved.",
       "id": "james-eneu",
       "name": "Dr. James Eneu Loughlin",
-      "years": "1849–1923",
+      "years": "1848 or 1849–1923",
       "generation": 3,
       "parents": [
         "william-elder",
@@ -838,7 +843,7 @@ window.familyData = {
       "note": "Married John Kane Jr. February 10, 1886 in Providence, Rhode Island. Nine children. Her biography uses a census-derived birth year of 1862 but reports a gravestone year of 1868; unresolved.",
       "id": "eva",
       "name": "Eva Marie Cantwell Loughlin",
-      "years": "1862–1931",
+      "years": "1862 or 1868–1931",
       "generation": 3,
       "spouse": "john-jr",
       "memorial": "90195078/eva_marie-loughlin",
@@ -1073,6 +1078,54 @@ window.familyData = {
         "mary-helen"
       ],
       "memorial": "96212589/mary_helen-willemin"
+    },
+    {
+      "id": "dornan-father",
+      "name": "William J. Dornan",
+      "years": "Dates not established",
+      "generation": 2,
+      "group": "extended",
+      "role": "Katherine Dornan’s parent",
+      "children": [
+        "katherine",
+        "dornan-brother"
+      ],
+      "spouse": "dornan-mother",
+      "memorial": "97094376/katherine-loughlin",
+      "connected": true,
+      "note": "Named in Katherine Dornan Loughlin’s biography. This link is to her memorial, not an individual memorial for this relative. Dates and further ancestry are not established. The connection to Wm. J. Dornan, Printer remains under investigation."
+    },
+    {
+      "id": "dornan-mother",
+      "name": "Mary Dornan",
+      "years": "Dates not established",
+      "generation": 2,
+      "group": "extended",
+      "role": "Katherine Dornan’s parent",
+      "children": [
+        "katherine",
+        "dornan-brother"
+      ],
+      "spouse": "dornan-father",
+      "memorial": "97094376/katherine-loughlin",
+      "connected": true,
+      "note": "Named in Katherine Dornan Loughlin’s biography. This link is to her memorial, not an individual memorial for this relative. Dates and further ancestry are not established. The connection to Wm. J. Dornan, Printer remains under investigation."
+    },
+    {
+      "id": "dornan-brother",
+      "name": "William J. Dornan Jr.",
+      "years": "Dates not established",
+      "generation": 3,
+      "group": "extended",
+      "role": "Katherine Dornan’s brother",
+      "children": [],
+      "parents": [
+        "dornan-father",
+        "dornan-mother"
+      ],
+      "memorial": "97094376/katherine-loughlin",
+      "connected": true,
+      "note": "Named in Katherine Dornan Loughlin’s biography. This link is to her memorial, not an individual memorial for this relative. Dates and further ancestry are not established. The connection to Wm. J. Dornan, Printer remains under investigation."
     }
   ]
 };
